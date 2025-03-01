@@ -29,8 +29,8 @@
 
 **Deliverables:**
 
-A detailed report comparing these concepts, including real-world scenarios for each.
-A decision matrix on when to use flashback vs. recovery techniques.
+- A detailed report comparing these concepts, including real-world scenarios for each.
+- A decision matrix on when to use flashback vs. recovery techniques.
 
 ### Assignment 3: Comparing Physical and Logical Backup – Use Cases and Trade-offs
 
