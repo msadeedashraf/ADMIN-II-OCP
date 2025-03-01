@@ -12,8 +12,8 @@
 
 **Deliverables:**
 
-A comparative report (table format preferred) listing pros/cons of each backup approach.
-A short case study with recommendations on improving a backup plan.
+- A comparative report (table format preferred) listing pros/cons of each backup approach.
+- A short case study with recommendations on improving a backup plan.
 
 ### Assignment 2: Difference Between Restore, Recover, and Flashback Techniques
 
@@ -22,16 +22,15 @@ A short case study with recommendations on improving a backup plan.
 
 **Tasks:**
 
-Define RESTORE, RECOVER, and FLASHBACK and explain how they function.
-Compare Flashback Database, Flashback Query, Flashback Table, and Flashback Drop – when and how should each be used?
-Research a scenario where point-in-time recovery (PITR) is necessary and explain why flashback may or may not be an option.
-Explain how flashback logging affects system performance and storage.
+1. Define RESTORE, RECOVER, and FLASHBACK and explain how they function.
+2. Compare Flashback Database, Flashback Query, Flashback Table, and Flashback Drop – when and how should each be used?
+3. Research a scenario where point-in-time recovery (PITR) is necessary and explain why flashback may or may not be an option.
+4. Explain how flashback logging affects system performance and storage.
+
 **Deliverables:**
 
 A detailed report comparing these concepts, including real-world scenarios for each.
 A decision matrix on when to use flashback vs. recovery techniques.
-
-
 
 ### Assignment 3: Comparing Physical and Logical Backup – Use Cases and Trade-offs
 
@@ -40,14 +39,15 @@ A decision matrix on when to use flashback vs. recovery techniques.
 
 **Tasks:**
 
-Explain the differences between physical and logical backups in terms of structure, advantages, and disadvantages.
-Research use cases where a logical backup is preferred over a physical backup and vice versa.
-Investigate how Data Pump Export and Import work and whether they can be used for disaster recovery.
-Identify limitations of Data Pump when dealing with large databases and discuss performance considerations.
+1. Explain the differences between physical and logical backups in terms of structure, advantages, and disadvantages.
+2. Research use cases where a logical backup is preferred over a physical backup and vice versa.
+3. Investigate how Data Pump Export and Import work and whether they can be used for disaster recovery.
+4. Identify limitations of Data Pump when dealing with large databases and discuss performance considerations.
+
 **Deliverables:**
 
-A comparative analysis between physical vs. logical backups in table format.
-A report on best practices for choosing the right backup strategy based on business requirements.
+- A comparative analysis between physical vs. logical backups in table format.
+- A report on best practices for choosing the right backup strategy based on business requirements.
 
 
 ### Assignment 4: High Availability Solutions – Data Guard vs. Real Application Clusters (RAC)
@@ -57,19 +57,20 @@ A report on best practices for choosing the right backup strategy based on busin
 
 **Tasks:**
 
-Explain what Data Guard and RAC are and how they provide high availability.
-Compare the advantages and disadvantages of each in terms of:
-Cost
-Complexity
-Performance
-Disaster Recovery
-Downtime reduction
-Identify real-world scenarios where Data Guard would be preferred over RAC and vice versa.
-Research the impact of using Active Data Guard instead of traditional standby databases.
+1. Explain what Data Guard and RAC are and how they provide high availability.
+2. Compare the advantages and disadvantages of each in terms of:
+   -   Cost
+   -   Complexity
+   -   Performance
+   -   Disaster Recovery
+   -   Downtime reduction
+3. Identify real-world scenarios where Data Guard would be preferred over RAC and vice versa.
+4. Research the impact of using Active Data Guard instead of traditional standby databases.
+
 **Deliverables:**
 
-A detailed report comparing Data Guard and RAC with a decision-making flowchart.
-A business case study analyzing which solution fits better for an organization.
+- A detailed report comparing Data Guard and RAC with a decision-making flowchart.
+- A business case study analyzing which solution fits better for an organization.
 
 ### Assignment 5: Performance Tuning – Optimizing Redo and Undo for Recovery
 
@@ -78,12 +79,13 @@ A business case study analyzing which solution fits better for an organization.
 
 **Tasks:**
 
-Explain the purpose of Redo Logs and Undo Tablespaces in Oracle.
-Differentiate between Online Redo Logs, Archived Redo Logs, and Flashback Logs – how does each impact recovery?
-Research best practices for configuring Redo Logs to improve performance and minimize data loss.
-Compare Undo Tablespace vs. Temporary Tablespace – how do they differ in recovery scenarios?
-Investigate how Redo Log contention affects database performance and propose solutions.
+1. Explain the purpose of Redo Logs and Undo Tablespaces in Oracle.
+2. Differentiate between Online Redo Logs, Archived Redo Logs, and Flashback Logs – how does each impact recovery?
+3. Research best practices for configuring Redo Logs to improve performance and minimize data loss.
+4. Compare Undo Tablespace vs. Temporary Tablespace – how do they differ in recovery scenarios?
+5. Investigate how Redo Log contention affects database performance and propose solutions.
+
 **Deliverables:**
 
-A technical report analyzing redo and undo strategies for recovery and performance tuning.
-A flowchart or diagram explaining how redo logs, undo tablespaces, and archived logs work together in recovery.
+- A technical report analyzing redo and undo strategies for recovery and performance tuning.
+- A flowchart or diagram explaining how redo logs, undo tablespaces, and archived logs work together in recovery.
